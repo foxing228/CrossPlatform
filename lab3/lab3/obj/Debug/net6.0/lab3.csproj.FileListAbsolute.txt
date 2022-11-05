@@ -1,0 +1,15 @@
+/Users/dprokhorchuk/RiderProjects/lab3/lab3/obj/Debug/net6.0/lab3.csproj.AssemblyReference.cache
+/Users/dprokhorchuk/RiderProjects/lab3/lab3/obj/Debug/net6.0/lab3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dprokhorchuk/RiderProjects/lab3/lab3/obj/Debug/net6.0/lab3.AssemblyInfoInputs.cache
+/Users/dprokhorchuk/RiderProjects/lab3/lab3/obj/Debug/net6.0/lab3.AssemblyInfo.cs
+/Users/dprokhorchuk/RiderProjects/lab3/lab3/obj/Debug/net6.0/lab3.csproj.CoreCompileInputs.cache
+/Users/dprokhorchuk/RiderProjects/lab3/lab3/bin/Debug/net6.0/lab3
+/Users/dprokhorchuk/RiderProjects/lab3/lab3/bin/Debug/net6.0/lab3.deps.json
+/Users/dprokhorchuk/RiderProjects/lab3/lab3/bin/Debug/net6.0/lab3.runtimeconfig.json
+/Users/dprokhorchuk/RiderProjects/lab3/lab3/bin/Debug/net6.0/lab3.dll
+/Users/dprokhorchuk/RiderProjects/lab3/lab3/bin/Debug/net6.0/lab3.pdb
+/Users/dprokhorchuk/RiderProjects/lab3/lab3/obj/Debug/net6.0/lab3.dll
+/Users/dprokhorchuk/RiderProjects/lab3/lab3/obj/Debug/net6.0/refint/lab3.dll
+/Users/dprokhorchuk/RiderProjects/lab3/lab3/obj/Debug/net6.0/lab3.pdb
+/Users/dprokhorchuk/RiderProjects/lab3/lab3/obj/Debug/net6.0/lab3.genruntimeconfig.cache
+/Users/dprokhorchuk/RiderProjects/lab3/lab3/obj/Debug/net6.0/ref/lab3.dll
