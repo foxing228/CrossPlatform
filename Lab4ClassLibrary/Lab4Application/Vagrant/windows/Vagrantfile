@@ -1,0 +1,13 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "senglin/win-10-enterprise-vs2015community"
+  config.vm.box_version = "1.0.0"
+
+  config.vm.network "public_network"
+  config.vm.provider "virtualbox"
+  
+  #config.vm.provision :shell, path: "shell/main.cmd"
+  config.vm.provision "shell", privileged: "true", powershell_elevated_interactive: "true", path: "Inst.ps1"
+  config.vm.provision "shell", inline: "choco install dotnet-6.0-sdk -y"
+  config.vm.provision "shell", inline: "dotnet nuget add source --name mysource http://192.168.0.102/Baget/v3/index.json"
+  config.vm.provision "shell", inline: "dotnet tool install dprokhorchuk --version 1.0.1 --global"
+end

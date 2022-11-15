@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>dprokhorchuk</id>
+    <version>1.0.1</version>
+    <authors>Lab4Application</authors>
+    <description>Package Description</description>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4Application/obj/DotnetToolSettings.xml" target="tools/net6.0/any/DotnetToolSettings.xml" />
+    <file src="/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4Application/bin/Debug/net6.0/publish/Lab4Application.dll" target="tools/net6.0/any/Lab4Application.dll" />
+    <file src="/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4Application/bin/Debug/net6.0/publish/Lab4Application.deps.json" target="tools/net6.0/any/Lab4Application.deps.json" />
+    <file src="/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4Application/bin/Debug/net6.0/publish/Lab4Application.runtimeconfig.json" target="tools/net6.0/any/Lab4Application.runtimeconfig.json" />
+    <file src="/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4Application/bin/Debug/net6.0/publish/Lab4Application.pdb" target="tools/net6.0/any/Lab4Application.pdb" />
+    <file src="/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4Application/bin/Debug/net6.0/publish/McMaster.Extensions.CommandLineUtils.dll" target="tools/net6.0/any/McMaster.Extensions.CommandLineUtils.dll" />
+    <file src="/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4Application/bin/Debug/net6.0/publish/Lab4ClassLibrary.dll" target="tools/net6.0/any/Lab4ClassLibrary.dll" />
+    <file src="/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4Application/bin/Debug/net6.0/publish/Lab4ClassLibrary.pdb" target="tools/net6.0/any/Lab4ClassLibrary.pdb" />
+  </files>
+</package>

@@ -1,0 +1,12 @@
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4ClassLibrary/bin/Debug/net6.0/Lab4ClassLibrary.deps.json
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4ClassLibrary/bin/Debug/net6.0/Lab4ClassLibrary.dll
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4ClassLibrary/bin/Debug/net6.0/Lab4ClassLibrary.pdb
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4ClassLibrary/obj/Debug/net6.0/Lab4ClassLibrary.csproj.AssemblyReference.cache
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4ClassLibrary/obj/Debug/net6.0/Lab4ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4ClassLibrary/obj/Debug/net6.0/Lab4ClassLibrary.AssemblyInfoInputs.cache
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4ClassLibrary/obj/Debug/net6.0/Lab4ClassLibrary.AssemblyInfo.cs
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4ClassLibrary/obj/Debug/net6.0/Lab4ClassLibrary.csproj.CoreCompileInputs.cache
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4ClassLibrary/obj/Debug/net6.0/Lab4ClassLibrary.dll
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4ClassLibrary/obj/Debug/net6.0/refint/Lab4ClassLibrary.dll
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4ClassLibrary/obj/Debug/net6.0/Lab4ClassLibrary.pdb
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4ClassLibrary/obj/Debug/net6.0/ref/Lab4ClassLibrary.dll

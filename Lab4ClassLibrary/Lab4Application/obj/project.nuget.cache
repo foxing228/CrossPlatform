@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "i4ghhMwF9pIIWd9Ci7OA0WXjogNjCHzufz7WMWaPBvmkvT6EfQCD7msjJf7+bwT6zf/Wya/ujFviyJ09DyKjUg==",
+  "success": true,
+  "projectFilePath": "/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4Application/Lab4Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/dprokhorchuk/.nuget/packages/mcmaster.extensions.commandlineutils/4.0.1/mcmaster.extensions.commandlineutils.4.0.1.nupkg.sha512",
+    "/Users/dprokhorchuk/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,28 @@
+Vagrant.configure("2") do |config|
+
+  # Box details
+  config.vm.box = 'bento/ubuntu-18.04'
+
+  # default router
+  config.vm.box_check_update = false
+  config.ssh.insert_key = false
+  
+  config.vm.provider "virtualbox" do |vb|
+    vb.name = "ubuntu-local"
+    vb.memory = 2048
+    vb.cpus = 1
+  end
+  
+  config.vm.provision "shell", inline: "wget https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb"
+  config.vm.provision "shell", inline: "sudo dpkg -i packages-microsoft-prod.deb"
+  config.vm.provision "shell", inline: "rm packages-microsoft-prod.deb"
+	  
+  config.vm.provision "shell", inline: "sudo apt-get update"
+  config.vm.provision "shell", inline: "sudo apt-get install -y apt-transport-https"
+  config.vm.provision "shell", inline: "sudo apt-get update"
+  config.vm.provision "shell", inline: "sudo apt-get install -y dotnet-sdk-6.0"
+  
+  config.vm.provision "shell", inline: "dotnet nuget add source --name mysource http://localhost:5000/v3/index.json"
+  config.vm.provision "shell", inline: "dotnet tool install dprokhorchuk --version 1.0.1 --global"
+
+end

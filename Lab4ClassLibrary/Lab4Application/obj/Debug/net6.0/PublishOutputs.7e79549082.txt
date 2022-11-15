@@ -1,0 +1,8 @@
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4Application/bin/Debug/net6.0/publish/Lab4Application
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4Application/bin/Debug/net6.0/publish/Lab4Application.dll
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4Application/bin/Debug/net6.0/publish/Lab4Application.deps.json
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4Application/bin/Debug/net6.0/publish/Lab4Application.runtimeconfig.json
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4Application/bin/Debug/net6.0/publish/Lab4Application.pdb
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4Application/bin/Debug/net6.0/publish/McMaster.Extensions.CommandLineUtils.dll
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4Application/bin/Debug/net6.0/publish/Lab4ClassLibrary.dll
+/Users/dprokhorchuk/RiderProjects/Lab4ClassLibrary/Lab4Application/bin/Debug/net6.0/publish/Lab4ClassLibrary.pdb
