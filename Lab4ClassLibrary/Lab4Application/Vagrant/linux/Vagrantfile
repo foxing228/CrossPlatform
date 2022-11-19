@@ -1,28 +1,53 @@
+# All Vagrant configuration is done below. The "2" in Vagrant.configure
+# configures the configuration version (we support older styles for
+# backwards compatibility). Please don't change it unless you know what
+# you're doing.
 Vagrant.configure("2") do |config|
+  # The most common configuration options are documented and commented below.
+  # For a complete reference, please see the online documentation at
+  # https://docs.vagrantup.com.
 
-  # Box details
-  config.vm.box = 'bento/ubuntu-18.04'
+  # Every Vagrant development environment requires a box. You can search for
+  # boxes at https://vagrantcloud.com/search.
+  config.vm.box = "bento/ubuntu-18.04"
 
-  # default router
-  config.vm.box_check_update = false
-  config.ssh.insert_key = false
-  
+  config.vm.box_check_update=false
+  config.ssh.insert_key=false
+
+  config.vm.network "forwarded_port", guest: 5000, host: 5002
+
   config.vm.provider "virtualbox" do |vb|
-    vb.name = "ubuntu-local"
-    vb.memory = 2048
-    vb.cpus = 1
-  end
+    vb.name="ubuntu-local"
+    vb.memory=2048
+    vb.cpus=2
+    vb.gui=true
+   end
+  config.vm.hostname="ubuntu-local-test3"
+
+  config.vm.provision "shell", inline:"sudo apt-get update"
+  config.vm.provision "shell", inline:"wget https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb"
+  config.vm.provision "shell", inline:"sudo dpkg -i packages-microsoft-prod.deb"
+  config.vm.provision "shell", inline:"sudo apt-get update"
+#   config.vm.provision "shell", inline:"sudo apt-get install -y dotnet-sdk-3.1"
+  config.vm.provision "shell", inline:"sudo apt-get install -y dotnet-sdk-6.0"
+  config.vm.provision "shell", inline:"sudo apt-get update"
   
-  config.vm.provision "shell", inline: "wget https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb"
-  config.vm.provision "shell", inline: "sudo dpkg -i packages-microsoft-prod.deb"
-  config.vm.provision "shell", inline: "rm packages-microsoft-prod.deb"
-	  
-  config.vm.provision "shell", inline: "sudo apt-get update"
-  config.vm.provision "shell", inline: "sudo apt-get install -y apt-transport-https"
-  config.vm.provision "shell", inline: "sudo apt-get update"
-  config.vm.provision "shell", inline: "sudo apt-get install -y dotnet-sdk-6.0"
+  config.vm.provision "shell", inline: "sudo mkdir -p /var/baget"
+  config.vm.provision "shell", inline: "sudo rm -rf /var/baget/src"
+  config.vm.provision "shell", inline: "curl -L -o /tmp/baget.zip https://github.com/loic-sharma/BaGet/archive/refs/tags/v0.4.0-preview2.zip"
+  config.vm.provision "shell", inline: "sudo mkdir -p /var/baget/src"
+  config.vm.provision "shell", inline: "sudo chmod +x /var/baget/src"
+  config.vm.provision "shell", inline: "sudo apt-get install unzip"
+  config.vm.provision "shell", inline: "sudo unzip /tmp/baget.zip -d /var/baget/src"
   
-  config.vm.provision "shell", inline: "dotnet nuget add source --name mysource http://localhost:5000/v3/index.json"
-  config.vm.provision "shell", inline: "dotnet tool install dprokhorchuk --version 1.0.1 --global"
+  config.vm.provision "shell", inline: "sudo dotnet build /var/baget/src/BaGet-0.4.0-preview2/src/BaGet -c Release -o /var/baget/app"
+  config.vm.provision "shell", inline: "sudo dotnet publish /var/baget/src/BaGet-0.4.0-preview2/src/BaGet -c Release -o /var/baget/app"
+  config.vm.provision "shell", inline: "sudo chmod g+w /var/baget/app"
+  
+  config.vm.provision "shell", inline: "dotnet nuget add source http://10.0.2.2:50561/v3/Index.json"
+  config.vm.provision "shell", inline: "dotnet nuget remove source nuget.org"
+  config.vm.provision "shell", inline: "dotnet tool install --global dprokhorchuk --version 1.0.4"
+  config.vm.provision "shell", inline: "Lab4 version"
+
 
 end
