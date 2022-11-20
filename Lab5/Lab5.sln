@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab5", "Lab5\Lab5.csproj", "{D2D81329-020E-4CA8-9F98-F033C256EE40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab5ClassLibrary", "Lab5ClassLibrary\Lab5ClassLibrary.csproj", "{36B5F4CA-0A75-43C5-906B-0E75CDA5CD39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2D81329-020E-4CA8-9F98-F033C256EE40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D81329-020E-4CA8-9F98-F033C256EE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D81329-020E-4CA8-9F98-F033C256EE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D81329-020E-4CA8-9F98-F033C256EE40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B5F4CA-0A75-43C5-906B-0E75CDA5CD39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B5F4CA-0A75-43C5-906B-0E75CDA5CD39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B5F4CA-0A75-43C5-906B-0E75CDA5CD39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B5F4CA-0A75-43C5-906B-0E75CDA5CD39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

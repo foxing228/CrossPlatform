@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "2WOISZur3DS/K/ZUTl9MIqDRI8MvNHabK2DzRb1Ev+vPOwzUmigSKxW94GBhiFXC0DXwrdUzWqoE+N/5NuhHUQ==",
+  "success": true,
+  "projectFilePath": "/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/Lab5ClassLibrary.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://10.0.2.2:50561/Baget/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

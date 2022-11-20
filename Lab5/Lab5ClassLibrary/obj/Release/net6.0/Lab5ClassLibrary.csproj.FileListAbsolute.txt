@@ -1,0 +1,12 @@
+/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/bin/Release/net6.0/Lab5ClassLibrary.deps.json
+/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/bin/Release/net6.0/Lab5ClassLibrary.dll
+/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/bin/Release/net6.0/Lab5ClassLibrary.pdb
+/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/obj/Release/net6.0/Lab5ClassLibrary.csproj.AssemblyReference.cache
+/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/obj/Release/net6.0/Lab5ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/obj/Release/net6.0/Lab5ClassLibrary.AssemblyInfoInputs.cache
+/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/obj/Release/net6.0/Lab5ClassLibrary.AssemblyInfo.cs
+/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/obj/Release/net6.0/Lab5ClassLibrary.csproj.CoreCompileInputs.cache
+/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/obj/Release/net6.0/Lab5ClassLibrary.dll
+/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/obj/Release/net6.0/refint/Lab5ClassLibrary.dll
+/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/obj/Release/net6.0/Lab5ClassLibrary.pdb
+/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/obj/Release/net6.0/ref/Lab5ClassLibrary.dll
