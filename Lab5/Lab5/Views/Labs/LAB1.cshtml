@@ -1,0 +1,34 @@
+@model DnaModel
+
+@{
+    ViewData["title"] = "lab1"; 
+    // Layout = null;
+}
+<h1>@ViewData["title"]</h1>
+
+<form method="post" enctype="multipart/form-data" asp-controller="Labs" asp-action="LAB1">
+    <div class="form-group">
+        <label for="dnaone">DnaOne</label>
+        <input type="text" class="form-select" id="dnaone" asp-for="DnaOne">
+    </div>
+    <div class="form-group">
+        <label for="dnatwo">DnaTwo</label>
+        <input type="text" class="form-select" id="dnatwo" asp-for="DnaTwo">
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+</form>
+@if (Model != null)
+{
+    <div class="container mt5">
+        <div class="form-group">
+            <label asp-for="Calculated" class="control-label">Output: @(Model != null ? Model.Calculated : string.Empty)</label>
+        </div>
+        @if (Model != null && !string.IsNullOrEmpty(Model.ErrorValue))
+        {
+            <div class="row">
+                <label for="perror"></label>
+                <input type="text" id="perror" value = "@Model.ErrorValue">
+            </div>
+        }
+    </div>
+}

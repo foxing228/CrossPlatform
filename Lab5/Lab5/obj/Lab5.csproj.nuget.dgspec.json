@@ -1,0 +1,129 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dprokhorchuk/RiderProjects/Lab5/Lab5/Lab5.csproj": {}
+  },
+  "projects": {
+    "/Users/dprokhorchuk/RiderProjects/Lab5/Lab5/Lab5.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dprokhorchuk/RiderProjects/Lab5/Lab5/Lab5.csproj",
+        "projectName": "Lab5",
+        "projectPath": "/Users/dprokhorchuk/RiderProjects/Lab5/Lab5/Lab5.csproj",
+        "packagesPath": "/Users/dprokhorchuk/.nuget/packages/",
+        "outputPath": "/Users/dprokhorchuk/RiderProjects/Lab5/Lab5/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dprokhorchuk/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "http://10.0.2.2:50561/Baget/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/Lab5ClassLibrary.csproj": {
+                "projectPath": "/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/Lab5ClassLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Okta.AspNetCore": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/Lab5ClassLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/Lab5ClassLibrary.csproj",
+        "projectName": "Lab5ClassLibrary",
+        "projectPath": "/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/Lab5ClassLibrary.csproj",
+        "packagesPath": "/Users/dprokhorchuk/.nuget/packages/",
+        "outputPath": "/Users/dprokhorchuk/RiderProjects/Lab5/Lab5ClassLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dprokhorchuk/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "http://10.0.2.2:50561/Baget/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+@model Lab5.Models.UserProfileModel
+@{
+    ViewBag.Title = "User information";
+}
+<h2>@ViewBag.Title</h2>
+@if (Model != null)
+{
+    <form>
+        <b>Email:</b>
+        <div class="form-group">
+                <label for="email"> @Model.Email</label>
+        </div>
+
+        <b>Name:</b>
+           
+        <div class="form-group">
+            <label for="name"> @Model.FirstName</label>
+        </div>
+
+        <b>Last name:</b>
+
+        <div class="form-group">
+            <label for="last"> @Model.LastName</label>
+        </div>
+        
+        <b>Username:</b>
+        
+        <div class="form-group">
+            <label for="phone">+@Model.UserName</label>
+        </div>
+
+        <b>Phone:</b>
+
+        <div class="form-group">
+            <label for="phone">+@Model.PhoneNumber</label>
+        </div>
+
+        <b>Alias:</b>
+
+        @* <div class="form-group"> *@
+        @*     <label for="phone">@Model.Alias</label> *@
+        @* </div> *@
+    </form>
+}
